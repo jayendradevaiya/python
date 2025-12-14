@@ -6,7 +6,7 @@ def chai_customer():
         order = yield
 
 stall = chai_customer()
-next(stall) # start generator
+next(stall) # start generator execution
 
 stall.send("Masala Chai")
 stall.send(input("order your tea type:"))
