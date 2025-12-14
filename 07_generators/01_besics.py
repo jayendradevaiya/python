@@ -21,4 +21,4 @@ chai = get_chai_gen()
 print(next(chai))
 print(next(chai))
 print(next(chai))
-# print(next(chai)) # giving error
+# print(next(chai)) # giving error (Stop Iteration)
